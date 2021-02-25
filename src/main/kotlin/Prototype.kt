@@ -37,7 +37,7 @@ class Circle: Shape
 {
     constructor(source: Circle): super(source as Shape)
     {
-
+        this.radius = source.radius
     }
     constructor(radius: Int, x: Int, y: Int, color: String)
     {
